@@ -1,0 +1,24 @@
+
+{
+    "ordertype":1,
+    "orderGroupId":1,
+    "client_id":1,
+    "createdatetime":1,
+    "fromdate":1,
+    "fromtime":1,
+    "createdby":1,
+    "services":1,
+    "comments":1,
+    "visitcomments":1,
+    "paymentdetails":1,
+    "servicedeliveryaddress.address2":1,
+    "servicedeliveryaddress.area_id.name":1,
+    "partner_id":1,
+    "status":1,
+    "createdbyname":1,
+    "prescriptions.description":1,
+    "serviceupdatecomment":1,
+    "discountupdatecomment":1,
+    "addpatientcomment":1,
+    "assignto":1
+}

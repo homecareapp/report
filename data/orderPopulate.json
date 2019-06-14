@@ -1,0 +1,6 @@
+[
+    { "path": "client_id", "select": "_id demography externalId"},
+    { "path": "services.service_id", "select": "_id name" },
+    { "path": "assignto", "select": "profile.name" },
+    { "path": "partner_id", "select": "_id info.name" }
+]

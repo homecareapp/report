@@ -1,0 +1,6 @@
+[
+    {   "path": "services.service_id", 
+        "select": "_id name category masterservice.tubes masterservice.department_id childs" },
+    { "path": "partner_id", "select": "_id info.name sharetubes" },
+    { "path": "assignto", "select": "_id profile.name" }
+]

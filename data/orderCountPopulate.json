@@ -1,0 +1,4 @@
+[
+    { "path": "partner_id", "select": "_id info.name" },
+    { "path": "assignto", "select": "_id profile.name" }
+]
