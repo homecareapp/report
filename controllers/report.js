@@ -108,6 +108,12 @@ exports.report = function(params, callback){
                 return callback(null, data);
             });
             break;
+        case "attendance":
+            const attendance = require("./attendance");
+            attendance.phleboVisitReport(params,function(err, data){
+                return callback(null, data);
+            });
+            break;
         default:
             return callback("reportname not found");
             break;

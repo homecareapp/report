@@ -1,0 +1,3 @@
+[
+    { "path": "user_id", "select": "profile.name" }
+]
