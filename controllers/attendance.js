@@ -19,8 +19,10 @@ exports.attendenceReport = {
 
         // getting value from attendance document
         ModelAttendance.find(search,attedanceOption, {lean:true}, (e,r)=>{
-            if(e) return callback(e)
+            console.log(e,r);
+            if(e) return callback(e);
             return callback(null,r)
+
         }).populate(attedancePopulate);
     }
 }
