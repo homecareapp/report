@@ -18,8 +18,10 @@ var TempReportModel = require('../models/TempReport');
 
 var stockreport = require('./stockreport');
 var visitcount = require('./visitcount');
+const attendance = require("./attendance");
 
 exports.report = function(params, callback){
+    
     switch (params.reportname) {
         case "homevisitreport":
             homevisitreport(params, function(e,tempResult){
@@ -109,8 +111,7 @@ exports.report = function(params, callback){
             });
             break;
         case "attendance":
-            const attendance = require("./attendance");
-            attendance.phleboVisitReport(params,function(err, data){
+           attendance.attendenceReport(params,function(err, data){
                 return callback(null, data);
             });
             break;
